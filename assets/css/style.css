@@ -349,5 +349,7 @@ margin-bottom: 50px;;
 }
 @media(min-width:1023px) and (max-width :1200px) {
 
-
+    .heroText {
+        margin-top: 176px;
+    }
 }

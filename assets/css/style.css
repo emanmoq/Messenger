@@ -56,6 +56,10 @@ color:white;
 background-color:var(--background-color);
 height: 100vh;
 }
+.subscribeForm .gfield_label{
+    display: none;
+    position: absolute
+}
 .hero{
     padding-top:100px;
 }

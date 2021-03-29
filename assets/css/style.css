@@ -165,9 +165,7 @@ font-size:1.1em;
 .subscribeForm{
     margin:0;
 }
-footer{
-    padding:60px 0 20px;
-}
+
 .socialIcons{
     margin-top:90px;
 }
@@ -208,73 +206,7 @@ font-size:18px;
     outline: 0;
     box-shadow: none;
 }
-.modal{
-    z-index: 999999999999;
-}
-.modal-dialog{
-    max-width:85%;
-}
-.contactForm .form-group{
-    position: relative;
-}
-.modal-content{
-    border-radius: 15px;
-    padding:60px;
-    text-align: center;
-}
 
-.form-group i{
-    position: absolute;
-    left: 4%;
-    top: 29%;
-    font-size:18px;
-    color:var(--main-color);
-}
-.contactForm .form-group.halfFormGroup{
-    width:48%;
-    display: inline-block;
-}
-.contactForm .form-group.marginGroup{
-    margin-right:40px;
-}
-.contactForm .form-control{
-    background-color:transparent;
-    border-radius: 0;
-    height:60px;
-    font-size: 1.1em;
-    border:0;
-    border-radius: 36px;
-    text-align: right;
-    background-color: rgba(44, 44, 73, .1);
-    padding-right:10px;
-
-}
-.form-control::-webkit-calendar-picker-indicator {
-display: none !important;
-}
-.contactForm .form-control::placeholder{
-    font-size: 1.1em;
-    color:#2C2C49;
-    padding-right:10px;
-    opacity: .44;;
-}
-.contactForm textarea.form-control{
-    height:120px;
-    resize: none;
-}
-.sendBtn{
-width:320px;
-margin-top:30px;
-background-color: var(--main-color);
-float: left;
-}
-.contactForm h5{
-    font-size:  2.1em;
-    color: var(--main-color);
-}
-.contactForm p{
-margin-bottom: 50px;;
-}
 @media(min-width:300px) and (max-width:767px){
 
     .navbar-expand-lg .navbar-nav{
